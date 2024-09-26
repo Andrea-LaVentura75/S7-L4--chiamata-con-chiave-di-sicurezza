@@ -36,7 +36,7 @@ let textInfoPhoto = document.querySelectorAll(".text-muted");
 const generaFotoAuto = function () {
   imgHtml.forEach((imgElement, index) => {
     if (arrayImgAuto[index]) {
-      imgElement.src = arrayImgAuto[index].src.medium;
+      imgElement.src = arrayImgAuto[index].src.portrait;
     }
   });
 
@@ -81,7 +81,7 @@ buttonSecondLoadImg.addEventListener("click", function () {
 const generaFotoMoto = function () {
   imgHtml.forEach((imgElement, index) => {
     if (arrrayImgMoto[index]) {
-      imgElement.src = arrrayImgMoto[index].src.medium;
+      imgElement.src = arrrayImgMoto[index].src.portrait;
     }
   });
 
